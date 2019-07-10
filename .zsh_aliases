@@ -1,0 +1,14 @@
+alias py36='source activate py36'
+alias Django='source activate Django'
+alias py='python'
+alias torch='source activate py_torch'
+alias tlog='source activate py36 && tensorboard --logdir="~/Desktop/logs"'
+alias dl='cd ~/Desktop/DeepLearning/'
+alias cat='ccat'
+cl() {
+    cd "$1"
+    ls
+}
+alias ssh='ssh-add;ssh'
+alias find='find . -type f | grep'
+alias jupyter='jupyter notebook'
