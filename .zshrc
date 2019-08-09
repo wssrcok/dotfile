@@ -24,8 +24,6 @@ source ~/.zsh_aliases
 
 # Extra:
 eval $(thefuck --alias)
-
-export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
-
-screenfetch
+[[ -s /Users/samshen/.autojump/etc/profile.d/autojump.sh ]] && source /Users/samshen/.autojump/etc/profile.d/autojump.sh
+autoload -U compinit && compinit -u
+neofetch
