@@ -17,7 +17,6 @@ plugins=(
 source $ZSH/oh-my-zsh.sh
 
 # Exports:
-export PATH="/Users/samshen/anaconda/bin:$PATH"
 
 # Alias:
 source ~/.zsh_aliases
